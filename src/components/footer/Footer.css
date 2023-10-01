@@ -1,0 +1,39 @@
+footer {
+  width: 100%;
+  background-color: rgb(26, 25, 25);
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-item a:hover {
+  color: rgb(81, 81, 81);
+}
+
+.footer-item h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+
+.footer-wrap {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 240px;
+}

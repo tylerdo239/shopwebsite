@@ -1,0 +1,157 @@
+.detail-item {
+  font-style: italic;
+  font-family: sans-serif;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.detail-short-description {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.detail-short-description img {
+  width: 50%;
+  height: auto;
+}
+
+.detail-info h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.detail-info h3 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.detail-info p {
+  font-size: 16px;
+  color: gray;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.detail-info h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.detail-info h4 span {
+  color: gray;
+}
+
+.detail-long-description h1 {
+  width: fit-content;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+.detail-long-description h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.detail-long-description p {
+  white-space: pre-line;
+  color: gray;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.related-items {
+  display: flex;
+}
+
+.related-item {
+  width: 300px;
+}
+
+.related-item img {
+  width: 100%;
+}
+
+.related-item img:hover {
+  opacity: 0.6;
+}
+
+.related-item h1 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.related-item h3 {
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.related h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.add-cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid gray;
+  width: fit-content;
+}
+
+.add-cart p {
+  margin: 0;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.add-cart svg {
+  height: 24px;
+}
+
+.add-cart .quantity {
+  color: black;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0;
+  width: 20px;
+  text-align: center;
+}
+
+.add-cart .btn-add-cart {
+  margin-left: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 12px 20px 12px 20px;
+  font-size: 16px;
+}
+
+.add-cart .btn-add-cart:hover {
+  background-color: rgb(66, 66, 66);
+  cursor: pointer;
+}
+
+.add-cart button {
+  border: none;
+  background-color: white;
+}
+
+.add-cart button:hover {
+  fill: orangered;
+}
+
+.cart-no-item {
+  margin: 10px;
+}

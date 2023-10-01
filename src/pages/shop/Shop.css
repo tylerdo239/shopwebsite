@@ -1,0 +1,25 @@
+.shop-page {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.shop-page-title {
+  width: 80%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 65px 0px 65px 0px;
+}
+
+.shop-page-title h1 {
+  font-size: 36px;
+  margin-left: 40px;
+}
+
+.shop-page-title p {
+  color: gray;
+  font-size: 20px;
+  margin-right: 40px;
+}

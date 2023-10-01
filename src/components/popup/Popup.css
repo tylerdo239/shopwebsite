@@ -1,0 +1,98 @@
+.popup,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  font-style: italic;
+  font-family: sans-serif;
+  align-items: center;
+  gap: 20px;
+}
+
+.popup-content img {
+  width: 45%;
+  height: auto;
+}
+
+.description h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description h3 {
+  font-size: 18px;
+  color: rgb(159, 159, 159);
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 14px;
+  color: rgb(172, 172, 172);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.btn-view-detail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px 10px 12px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-view-detail:hover {
+  background-color: rgb(70, 70, 70);
+  cursor: pointer;
+}
+
+.btn-view-detail svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.btn-view-detail span {
+  font-size: 16px;
+}
+
+.close-button {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background-color: white;
+}
+
+.close-button:hover {
+  cursor: pointer;
+  color: red;
+}

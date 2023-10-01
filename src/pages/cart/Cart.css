@@ -1,0 +1,279 @@
+.cart-page {
+  font-family: sans-serif;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.cart-page-title {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 65px 0px 65px 0px;
+}
+
+.cart-page-title h1 {
+  font-size: 36px;
+  margin-left: 40px;
+}
+
+.cart-page-title p {
+  color: gray;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.cart-page .shopping-cart-title {
+  width: 100%;
+  justify-self: flex-start;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.cart-items {
+  width: 72%;
+}
+
+.items-info {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  padding: 16px 0 16px 0;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.items-info h3 {
+  text-align: center;
+}
+
+.items-info h3:nth-child(1),
+.cart-item img {
+  width: 120px;
+}
+
+.items-info h3:nth-child(2),
+.cart-item h2 {
+  width: 200px;
+}
+
+.items-info h3:nth-child(3),
+.cart-item .price {
+  width: 110px;
+}
+
+.items-info h3:nth-child(4),
+.cart-item .cart-quantity {
+  width: 120px;
+}
+
+.items-info h3:nth-child(5),
+.cart-item .total {
+  width: 110px;
+}
+
+.items-info h3:nth-child(6),
+.cart-item .remove {
+  width: 120px;
+}
+
+.cart-total {
+  width: 27%;
+  background-color: rgb(240, 240, 240);
+  height: 300px;
+}
+
+.cart-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-item h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-item p {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+  line-height: 1.4;
+}
+
+.cart-item .cart-quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-item .remove {
+  text-align: center;
+}
+
+.cart-quantity {
+  display: flex;
+  gap: 10px;
+}
+
+.cart-quantity p {
+  color: black;
+}
+
+.cart-quantity svg {
+  height: 24px;
+}
+
+.cart-quantity button {
+  border: none;
+  background-color: white;
+}
+
+.cart-quantity button:hover {
+  fill: orangered;
+  cursor: pointer;
+}
+
+.remove svg {
+  height: 26px;
+}
+
+.remove svg:hover {
+  fill: red;
+  cursor: pointer;
+}
+
+.cart-total h2 {
+  margin: 30px 0 30px 20px;
+}
+
+.cart-total .subtotal {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(135, 135, 135);
+  font-size: 14px;
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total .total-pay {
+  margin-left: 20px;
+  margin-top: 14px;
+  font-size: 14px;
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal p {
+  color: gray;
+  font-size: 16px;
+}
+
+.total-pay p {
+  font-size: 18px;
+}
+
+.voucher {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.voucher input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.voucher button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: black;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+
+.voucher button svg {
+  height: 18px;
+  fill: white;
+}
+
+.voucher button span {
+  font-size: 16px;
+  color: white;
+}
+
+.voucher button:hover {
+  cursor: pointer;
+  background-color: rgb(69, 69, 69);
+  border: 1px solid rgb(69, 69, 69);
+}
+
+.cart-change-page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px 0 10px 0;
+}
+
+.btn-change-page {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.change-shop {
+  border: none;
+  background-color: rgb(240, 240, 240);
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.change-shop svg {
+  height: 20px;
+  margin-bottom: 2px;
+}
+
+.change-shop:hover {
+  color: orangered;
+  fill: orangered;
+  cursor: pointer;
+}
+
+.change-checkout {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.change-checkout svg {
+  height: 20px;
+}
+
+.change-checkout:hover {
+  fill: orangered;
+  color: orangered;
+  border: 2px solid orangered;
+  cursor: pointer;
+}

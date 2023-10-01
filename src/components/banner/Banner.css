@@ -1,0 +1,49 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: sans-serif;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.banner img {
+  width: 80%;
+  height: auto;
+}
+
+.banner-content {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 15%;
+  transform: translate(0, -50%);
+  width: 30%;
+}
+
+.banner-content p {
+  color: gray;
+  font-size: 16px;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin: 20px 0 20px 0;
+}
+
+.banner-content button {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  border: none;
+  font-size: 20px;
+  padding: 10px 24px 10px 24px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.banner-content button:hover {
+  color: rgb(220, 220, 220);
+  background-color: black;
+  cursor: pointer;
+}

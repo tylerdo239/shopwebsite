@@ -1,0 +1,151 @@
+.product-list {
+  font-family: sans-serif;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.shop-categories {
+  width: 20%;
+}
+
+.shop-categories h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.shop-categories h2 {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 12px 0 12px 24px;
+  margin-bottom: 12px;
+}
+
+.categories-item {
+  margin-top: 10px;
+}
+
+.shop-categories h3 {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  padding: 12px 0 12px 24px;
+  margin-bottom: 12px;
+}
+
+.shop-categories button {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  color: gray;
+  font-family: sans-serif;
+  font-style: italic;
+  width: 100%;
+  padding: 0;
+  text-align: start;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.shop-categories button:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.shop-categories .btn-active {
+  color: orangered;
+}
+
+.shop-items {
+  width: 77%;
+}
+
+.search-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 200px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.sort-dropdown {
+  height: 24px;
+  padding-left: 10px;
+}
+
+.page-change {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.page-change button {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 6px 10px 6px 10px;
+}
+
+.page-change p {
+  background-color: black;
+  color: white;
+  padding: 6px 12px 6px 12px;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.shop-item {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.shop-item img:hover {
+  opacity: 0.6;
+}
+
+.shop-item h3 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.shop-item p {
+  color: gray;
+}
+
+.zoom-out-element {
+  animation: zoomOutAnimation 0.8s ease-in;
+}
+
+@keyframes zoomOutAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

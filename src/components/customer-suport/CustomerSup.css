@@ -1,0 +1,137 @@
+.customer-icon {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.customer-icon svg {
+  height: 34px;
+  fill: white;
+}
+
+.customer-icon:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.box-chat {
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  bottom: 200px;
+  right: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box-chat-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 10px 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.box-chat-title h1 {
+  font-size: 20px;
+}
+
+.box-chat-title p {
+  font-size: 16px;
+  padding: 4px 10px 4px 10px;
+  background-color: rgb(194, 194, 194);
+  color: rgb(84, 84, 84);
+}
+
+.chat-dialouge {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.chat-dialouge .user {
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border-radius: 6px;
+  align-self: flex-end;
+  margin-right: 16px;
+  margin-bottom: 10px;
+}
+
+.chat-dialouge .admin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 16px;
+}
+
+.chat-dialouge .admin img {
+  width: 40px;
+}
+
+.chat-dialouge .admin p {
+  width: fit-content;
+  max-width: 240px;
+  padding: 10px;
+  background-color: rgb(218, 218, 218);
+  color: gray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  margin-top: 75px;
+}
+
+.chat-input input {
+  border: none;
+  font-size: 16px;
+  width: 260px;
+  padding: 10px;
+}
+
+.chat-input svg {
+  height: 20px;
+  fill: gray;
+}
+
+.chat-input svg:last-child {
+  fill: rgb(0, 132, 255);
+}
+
+.chat-input img {
+  width: 40px;
+  margin-left: 16px;
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.rotate-in-element {
+  animation: rotateIn 0.5s ease;
+}
