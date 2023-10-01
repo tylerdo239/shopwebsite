@@ -13,22 +13,22 @@ import CheckoutPage from "./pages/checkout/Checkout";
 // Using router for the website
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/shopwebsite",
     element: <RootLayout />,
     children: [
       { path: "", element: <HomePage /> },
-      { path: "shop", element: <ShopPage /> },
-      { path: "cart", element: <CartPage /> },
+      { path: "/shop", element: <ShopPage /> },
+      { path: "/cart", element: <CartPage /> },
       {
-        path: "login",
+        path: "/login",
         element: <LoginPage />,
         children: [
-          { path: "signup", element: <SignUp /> },
-          { path: "signin", element: <SignIn /> },
+          { path: "/signup", element: <SignUp /> },
+          { path: "/signin", element: <SignIn /> },
         ],
       },
-      { path: "detail/:detailId", element: <DetailPage /> },
-      { path: "checkout", element: <CheckoutPage /> },
+      { path: "/detail/:detailId", element: <DetailPage /> },
+      { path: "/checkout", element: <CheckoutPage /> },
     ],
   },
 ]);
